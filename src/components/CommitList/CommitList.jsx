@@ -14,7 +14,6 @@ export default class CommmitList extends React.Component {
         .then(resp => {
             const commits = resp.data;
             this.setState({commits});
-            console.log([commits])
         })
     }
 

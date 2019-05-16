@@ -1,15 +1,14 @@
 import React from 'react';
-import axios from 'axios';
 
 import './App.modules.css';
 
-import CommmitList from './components/CommitList/CommitList';
+import Home from './components/Home/Home';
 
 
 function App() {
   return (
     <div className="App">
-      <CommmitList />
+      <Home />
     </div>
   );
 }
